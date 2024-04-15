@@ -1,0 +1,399 @@
+* {
+    margin: 0;
+    padding: 0; /* Agregamos padding para eliminar cualquier espaciado adicional */
+    box-sizing: border-box; /* Aseguramos que el padding y el borde no afecten el ancho y alto total */
+}
+
+.fondooscuro {
+    background-color: black;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+    padding: 10px; /* Añade espacio alrededor de los elementos */
+}
+
+.halloween, .HOME, .DEMOSTRATIONS, .ABOUT, .CONTACT {
+   
+    margin: 10px; /* Espacio entre los elementos */
+    color: white;
+    padding: 10px; /* Añade espacio dentro de los elementos */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el texto */
+    align-items: center; /* Centra verticalmente el texto */
+}
+.BUY_TICKETS
+{
+   
+    margin: 10px; /* Espacio entre los elementos */
+    color: red;
+    padding: 10px; /* Añade espacio dentro de los elementos */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el texto */
+    align-items: center; /* Centra verticalmente el texto */
+}
+
+button {
+    bbackground-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+
+.imagenp{
+    position: relative;
+    flex-basis: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.l1imagenp{
+    position: absolute; /* Posición absoluta para que se superponga sobre la imagen */
+    top: 25%; /* Ajusta la posición verticalmente */
+    left: 50%; /* Ajusta la posición horizontalmente */
+    transform: translate(-50%, -50%); /* Centra el texto en el medio del contenedor */
+    color: red; /* Color del texto */
+    text-align: center; /* Alineación del texto*/
+}
+.l2{
+    position: absolute;
+    bottom: 20px; /* Por ejemplo, coloca el texto adicional 20 píxeles desde la parte inferior */
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    text-align: center;
+}
+.BUYTICKETS{
+    position: absolute;
+    bottom: 20px; /* Por ejemplo, coloca el texto adicional 20 píxeles desde la parte inferior */
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: red;
+    text-align: center;
+
+}
+
+
+
+
+.LiveArtistry{
+    background-color: black;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+    padding: 10px; /* Añade espacio alrededor de los elementos */
+}
+.LiveArtistry1{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+.LiveArtistry11
+{
+    background-color: black;
+    color: red;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el texto */
+    align-items: center; /* Centra verticalmente el texto */
+    justify-content: center; /* Centra horizontalmente el texto */
+}
+.LiveArtistry2
+{
+    background-color: black;
+    flex-basis: 10vw;
+    height: 50vh;
+    margin: 10px; /* Espacio entre los elementos */
+    color: white;
+    padding: 10px; /* Añade espacio dentro de los elementos */
+    display: flex;
+    
+}
+.LiveArtistrytexto  
+{
+    background-color: black;
+    flex-basis: 30vw;
+    height: 50vh;
+    color: white;
+    margin: 20px; /* Espacio entre los elementos */
+    color: white;
+    padding: 10px; /* Añade espacio dentro de los elementos */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el texto */
+    align-items: center; /* Centra verticalmente el texto */
+    justify-content: center; /* Centra horizontalmente el texto */
+    align-items: center; /* Centra verticalmente el texto */
+    border-left: 1px solid white; /* Agrega una línea vertical a la derecha del elemento */
+    padding-left: 50px; /* Agrega un espacio entre la línea y el texto */
+    margin-left: 350px;
+}
+
+
+.calabasad
+{
+    background-color: black;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el elemento */
+    padding: 10px; /* Añade espacio alrededor del elemento */
+    
+}
+.calabasad2
+{
+    position: relative;
+    flex-basis: 50vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.InteractiveExperience{
+    background-color: black;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+    padding: 10px; /* Añade espacio alrededor de los elementos */
+}
+.InteractiveExperience1{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+.InteractiveExperience11
+{
+    background-color: black;
+    color: red;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el texto */
+    align-items: center; /* Centra verticalmente el texto */
+    justify-content: center; /* Centra horizontalmente el texto */
+}
+.InteractiveExperience2
+{
+    background-color: black;
+    flex-basis: 10vw;
+    height: 50vh;
+    margin: 10px; /* Espacio entre los elementos */
+    color: white;
+    padding: 10px; /* Añade espacio dentro de los elementos */
+    display: flex;
+    
+}
+.InteractiveExperiencetexto  
+{
+    background-color: black;
+    flex-basis: 30vw;
+    height: 50vh;
+    color: white;
+    margin: 20px; /* Espacio entre los elementos */
+    color: white;
+    padding: 10px; /* Añade espacio dentro de los elementos */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el texto */
+    align-items: center; /* Centra verticalmente el texto */
+    justify-content: center; /* Centra horizontalmente el texto */
+    align-items: center; /* Centra verticalmente el texto */
+    border-left: 1px solid white; /* Agrega una línea vertical a la derecha del elemento */
+    padding-left: 50px; /* Agrega un espacio entre la línea y el texto */
+    margin-left: 350px;
+}
+
+
+.calabasaf
+{
+    background-color: black;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el elemento */
+    padding: 10px; /* Añade espacio alrededor del elemento */
+    
+}
+.calabasaf2
+{
+    position: relative;
+    flex-basis: 50vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.DiverseCreations{
+    background-color: black;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+    padding: 10px; /* Añade espacio alrededor de los elementos */
+}
+.DiverseCreations1{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+.DiverseCreations11
+{
+    background-color: black;
+    color: red;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el texto */
+    align-items: center; /* Centra verticalmente el texto */
+    justify-content: center; /* Centra horizontalmente el texto */
+}
+.DiverseCreations2
+{
+    background-color: black;
+    flex-basis: 10vw;
+    height: 50vh;
+    margin: 10px; /* Espacio entre los elementos */
+    color: white;
+    padding: 10px; /* Añade espacio dentro de los elementos */
+    display: flex;
+    
+}
+.DiverseCreationstexto  
+{
+    background-color: black;
+    flex-basis: 30vw;
+    height: 50vh;
+    color: white;
+    margin: 20px; /* Espacio entre los elementos */
+    color: white;
+    padding: 10px; /* Añade espacio dentro de los elementos */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el texto */
+    align-items: center; /* Centra verticalmente el texto */
+    justify-content: center; /* Centra horizontalmente el texto */
+    align-items: center; /* Centra verticalmente el texto */
+    border-left: 1px solid white; /* Agrega una línea vertical a la derecha del elemento */
+    padding-left: 50px; /* Agrega un espacio entre la línea y el texto */
+    margin-left: 350px;
+}
+
+
+
+.calabasaf3
+{
+    background-color: black;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el elemento */
+    padding: 10px; /* Añade espacio alrededor del elemento */
+    
+}
+.calabasaf33
+{
+    position: relative;
+    flex-basis: 50vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.calabasaf4
+{
+    background-color: black;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el elemento */
+    padding: 10px; /* Añade espacio alrededor del elemento */
+    
+}
+.calabasaf44
+{
+    background-color: black;
+    margin: 10px; /* Espacio entre el elemento y otros elementos */
+    width: 20vw; /* Ancho del elemento */
+    height: 40vh; /* Alto del elemento */
+}   
+
+
+
+.aaa{
+    background-color: black;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+    padding: 10px; /* Añade espacio alrededor de los elementos */
+}
+.Powered
+{
+    background-color: black;
+    flex-basis: 50vw;
+    height: 10vh;
+    color: white;
+    margin: 10px; /* Espacio entre los elementos */
+    color: white;
+    padding: 10px; /* Añade espacio dentro de los elementos */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el texto */
+    align-items: center; /* Centra verticalmente el texto */
+    justify-content: center; /* Centra horizontalmente el texto */
+    align-items: center; /* Centra verticalmente el texto */
+}
+.Copyright
+{
+    background-color: black;
+    flex-basis: 50vw;
+    height: 10vh;
+    color: white;
+    margin: 10px; /* Espacio entre los elementos */
+    color: white;
+    padding: 10px; /* Añade espacio dentro de los elementos */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el texto */
+    align-items: center; /* Centra verticalmente el texto */
+    justify-content: center; /* Centra horizontalmente el texto */
+    align-items: center; /* Centra verticalmente el texto */
+}
+
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 768px) {
+    .imagenp, .calabasad, .calabasaf, .calabasaf3, .calabasaf4 {
+        flex-direction: column; /* Cambiar a dirección de columna para ocupar el ancho completo */
+    }
+
+    .l1imagenp {
+        top: 15%; /* Ajuste vertical */
+    }
+
+    .l2 {
+        bottom: 10%; /* Ajuste vertical */
+    }
+
+    .BUYTICKETS {
+        top: 90%; /* Ajuste vertical */
+    }
+
+    .LiveArtistry2, .InteractiveExperience2, .DiverseCreations2 {
+        flex-basis: auto; /* Ancho automático */
+        height: auto; /* Alto automático */
+        margin-left: 0; /* Eliminar margen izquierdo */
+    }
+
+    .LiveArtistrytexto, .InteractiveExperiencetexto, .DiverseCreationstexto {
+        margin: 10px; /* Ajustar margen */
+        padding-left: 10px; /* Ajustar padding izquierdo */
+        margin-left: 0; /* Eliminar margen izquierdo */
+    }
+
+    .calabasad2, .calabasaf2, .calabasaf33, .calabasaf44 {
+        flex-basis: 100%; /* Ancho completo */
+        height: auto; /* Alto automático */
+    }
+
+    .aaa {
+        flex-direction: column; /* Cambiar a dirección de columna */
+    }
+
+    .Powered, .Copyright {
+        flex-basis: auto; /* Ancho automático */
+        margin: 10px; /* Ajustar margen */
+    }
+}
